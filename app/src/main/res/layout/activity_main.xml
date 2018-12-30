@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">>
+<LinearLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select your time and parking"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/write"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="write description of your parking spot,such as number of parking lot e.g LOT F10" />
+    <Spinner
+        android:id="@+id/chose"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+    </Spinner>
+
+  <!--  <TimePicker
+        android:id="@+id/time"
+        android:layout_width="match_parent"
+        android:layout_height="342dp"></TimePicker> -->
+    <Button
+        android:id="@+id/picktime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="pick time"
+        android:onClick="showTimePickerDialog"
+        />
+
+    <Button
+        android:id="@+id/addpic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Click to add a picture of your parking spot" />
+
+    <Button
+        android:id="@+id/add"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:text="click to add a new parking spot" />
+    <!--  <Button
+        android:id="@+id/uploadpic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Click here to upload your picture"
+        /> -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="Choose below to see avalible parking spots posted"/>
+    <ListView
+        android:id="@+id/check"
+        android:layout_width="match_parent"
+        android:layout_height="133dp"></ListView>
+
+</LinearLayout>
+</ScrollView>

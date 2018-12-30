@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ParkingSpot Sharer</string>
+    <string-array name="parking">
+        <item>old structure</item>
+        <item>new structure</item>
+        <item>mountain</item>
+    </string-array>
+
+
+
+</resources>

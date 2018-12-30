@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "462560997905",
+    "firebase_url": "https://spotsharer-1b04f.firebaseio.com",
+    "project_id": "spotsharer-1b04f",
+    "storage_bucket": "spotsharer-1b04f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:462560997905:android:616f2c729f911c22",
+        "android_client_info": {
+          "package_name": "com.example.jianchaosun.parkingspotsharer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "462560997905-5o485am0ug0trk137c509cirpfvq7ilj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBz3-FkvAeAy9y0WHifrvU32gf5PCEG5Eo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
